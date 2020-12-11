@@ -1,33 +1,30 @@
 /*
-   Q1.) Find whether a number is even or odd 
-   Q2.) Find if a number is positive, negative or 0
-   Q3.) Find if a number is positive and even
+  Q1.)Find day of week by accepting its number
 */
 
-document.write("<h1>If-ELse Control Statements </h1>");
-
-var x = 10;
-
-// if(x%2==0) {
-//     document.write("<h3>EVEN NUMBER </h3>");
-// }
-// else {
-//     document.write("<h3>ODD NUMBER </h3>");
-// }
-
-// if(x>0) {
-//     document.write("<h3>POSITIVE NUMBER </h3>");
-// }
-// else if(x<0) {
-//     document.write("<h3>NEGATIVE NUMBER </h3>");
-// }
-// else {
-//     document.write("<h3>ZERO </h3>");
-// }
-
-    if(x>0 && x%2==0) {
-        document.write("<h3>POSITIVE AND EVEN NUMBER </h3>");
-    }
-    else if(x<0) {
-        document.write("<h3>NEGATIVE NUMBER </h3>");
-    }
+ var day = 3;
+ switch(day) {
+     case 1:
+         document.write("<h2>Sunday</h2>");
+         break;
+     case 2:
+        document.write("<h2>Monday</h2>");
+        break;
+     case 3:
+        document.write("<h2>Tuesday</h2>");
+        break;
+     case 4:
+        document.write("<h2>Wednesday</h2>");
+        break;
+     case 5:
+        document.write("<h2>Thursday</h2>");
+        break;
+     case 6:
+        document.write("<h2>Friday</h2>");
+        break;
+     case 7:
+        document.write("<h2>Saturday</h2>");
+        break;
+     default:
+         document.write("<h2>Wrong Input </h2>");           
+ }
