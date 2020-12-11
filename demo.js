@@ -1,10 +1,11 @@
 /*
-  Q1.) Print first 5 odd numbers using while loop
+  Q1.) Display usage of do-while loop
 */
 
-// entry controlled loop
-var x = 1;
-while(x<10) {
-    document.write("<h3>"+x+"</h3>");
-    x=x+2;
-}
+// exit controlled loop
+var x = 7;
+do {
+    document.write("<h2>Satish Kumar Gupta </h2>");
+    x--;
+} while(x>5)
+
