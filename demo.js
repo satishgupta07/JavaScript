@@ -1,11 +1,11 @@
 /*
-  Q1.) Display usage of do-while loop
+  Q1.) Write a function to add 2 numbers and print the result
 */
 
-// exit controlled loop
-var x = 7;
-do {
-    document.write("<h2>Satish Kumar Gupta </h2>");
-    x--;
-} while(x>5)
+function sum(a, b) {
+    var total = a+b;
+    document.write("<h2>The total is : "+total);
+}
 
+
+sum(7,8);
