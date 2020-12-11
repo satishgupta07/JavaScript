@@ -1,11 +1,13 @@
-/*
-  Q1.) Write a function to add 2 numbers and print the result
-*/
+var a= 5;  // global variable
 
-function sum(a, b) {
-    var total = a+b;
-    document.write("<h2>The total is : "+total);
+function myfun() {
+    var b = 7;  //local variable
+    document.write("<h2>"+a+"</h2>");
+    document.write("<h2>"+b+"</h2>");
 }
 
+myfun();
 
-sum(7,8);
+document.write("<h2>"+a+"</h2>");
+document.write("<h2>"+b+"</h2>");
+
