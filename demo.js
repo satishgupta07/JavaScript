@@ -1,13 +1,23 @@
-var a= 5;  // global variable
+var cars = ["BMW","Volvo","Audi"];
 
-function myfun() {
-    var b = 7;  //local variable
-    document.write("<h2>"+a+"</h2>");
-    document.write("<h2>"+b+"</h2>");
+for (let index = 0; index < cars.length; index++) {
+    
+    document.write("<h4>"+cars[index]+"</h4>");
+    
 }
 
-myfun();
+document.write("________________________________________________");
 
-document.write("<h2>"+a+"</h2>");
-document.write("<h2>"+b+"</h2>");
+var arr;
+arr = new Array("Mango", "Apple", "Banana");
+
+arr.push("Grapes");
+arr.push(90);
+
+for (let index = 0; index < arr.length; index++) {
+    
+    document.write("<h4>"+arr[index]+"</h4>");
+    
+}
+
 
