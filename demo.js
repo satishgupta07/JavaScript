@@ -1,16 +1,11 @@
-document.write("<h1> External JS File </h1>");
+// Associativity
+var a = 3; // right-to-left
+var b = 5;
+var c = 7;
+var result = a+c+"Satish"+a+b;  // left to right
 
+// Operator Precedence
+var result2 = c+b*a;
 
-// JS is LOOSELY TYPED
-// JS is DYNAMICALLY TYPED
-
-var num = 5;    //Number
-var name = "Satish Kumar Gupta";    //String
-var flag = true;      //Boolean
-num = "Rahul Gupta";
-
-var x; //declaration 
-x = 16; //initialization
-
-document.write(num);
-alert(name);
+document.write("<h1>Result is : "+result+"</h1>");
+document.write("<h1>Result is : "+result2+"</h1>");
