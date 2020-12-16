@@ -1,10 +1,11 @@
-//   getElementsByClassName method
+//   mouseover and mouseout events
 
-function changeStyling() {
-    var element = document.getElementsByClassName("mypara");
-
-    for(var x=0; x<element.length; x++) {
-        element[x].style.color = "red";
-    }
+function setNewImage() {
+    document.getElementById("img1").src = "imgs/img4.png";
 }
+
+function setOldImage() {
+    document.getElementById("img1").src = "imgs/img3.png";
+}
+
    
