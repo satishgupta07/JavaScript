@@ -1,10 +1,5 @@
-/* DOM manipulations & getElementById method */
-
-// function btnClick() {
-//     alert("Button Clicked");
-// }
-
-function btnClick() {
-    document.getElementById("heading2")
-    .innerHTML="Satish Kumar Gupta";
+function fn1() {
+    var str = document.getElementById("text1").value;
+    alert("Value inside the text box is: "+str);
 }
+   
