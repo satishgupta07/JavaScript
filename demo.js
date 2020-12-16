@@ -1,11 +1,16 @@
-//   mouseover and mouseout events
+/* Form Validations in Javascript */
 
-function setNewImage() {
-    document.getElementById("img1").src = "imgs/img4.png";
-}
+function validate() {
+    var username = document.getElementById("uname");
+    var password = document.getElementById("pass");
 
-function setOldImage() {
-    document.getElementById("img1").src = "imgs/img3.png";
+    if(username.value.trim() == "" || password.value.trim() == "") {
+        alert("No blank values is allowed");
+        return false;
+    }
+    else {
+        true;
+    }
 }
 
    
