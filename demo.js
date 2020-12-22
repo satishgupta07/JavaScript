@@ -9,7 +9,7 @@
 
   function validate() {
       var text = document.getElementById("text1").value;
-      var regx = /^[7-9]\d{9}$/;
+      var regx = /^([a-z 0-9\.-]+)@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})?$/;
       if(regx.test(text)) {
           document.getElementById('lbltext').innerHTML="Valid";
           document.getElementById('lbltext').style.visibility="visible";
