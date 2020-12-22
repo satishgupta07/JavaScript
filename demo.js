@@ -1,16 +1,25 @@
 //   Regular Expressions are used to perform powerful pattern-matching and 
 //   search-and-replace functions on text.
+/*
+    \d - match any digit (equal to [0-9])
+    \w - match any word character (a-z,A-Z,0-9 &...)
+    \s - match whitespace charcter (eg - spaces & tabs)
+    \t - match a tab only
+*/
 
   function validate() {
-      var username = document.getElementById("uname").value;
-      var regx = /E00/i;
-      if(regx.test(username)) {
-          alert("Valid Username");
+      var text = document.getElementById("text1").value;
+      var regx = /^[7-9]\d{9}$/;
+      if(regx.test(text)) {
+          document.getElementById('lbltext').innerHTML="Valid";
+          document.getElementById('lbltext').style.visibility="visible";
+          document.getElementById('lbltext').style.color="green";
       }
       else {
-          alert("Invalid Username");
-          document.getElementById('lbluser').style.visibility="visible";
-      }
+        document.getElementById('lbltext').innerHTML="Invalid";
+        document.getElementById('lbltext').style.visibility="visible";
+        document.getElementById('lbltext').style.color="red";
+      } 
   }
 
    
