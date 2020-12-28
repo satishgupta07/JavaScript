@@ -9,4 +9,8 @@ $(document).ready(()=> {
     console.log($('#mydiv').attr('id','myDiv'))
     console.log($('#inp').prop('checked'))
     
+    $('#btn').click((ev)=> {
+        x.css('background-color','orange')
+        console.log(ev.target)
+    })
 })
