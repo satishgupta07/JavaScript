@@ -1,0 +1,85 @@
+# JavaScript
+
+## Weakly-Typed
+
+## Dynamically-Typed
+
+// Console -> Compilation
+   (Live)
+## REPL -> Read Evaluate Print Loop
+
+___________________________________________________________________________________________________________
+Shallow Copy -> A shallow copy will duplicate the top-level properties, but the nested object
+is shared between the original(source) and the copy(target).
+
+deep copy -> A deep copy will duplicate every object it encounters. The copy and the original
+object will not share anything, so it will be a copy of the original.
+
+___________________________________________________________________________________________________________
+# JavaScript Hoisting
+-> a variable can be used before it has been declared
+
+
+# Higher-order functions -> Higher-order functions are functions that take other
+                            functions as arguments or return functions as their results
+
+
+____________________________________________________________________________________________________________
+# Closures -> A closure is the combination of a function bundled together (enclosed) with references
+              to its surrounding state (the lexical environment). In other words, a closure gives you
+              access to an outer function’s scope from an inner function. In JavaScript, closures are
+              created every time a function is created, at function creation time.
+
+____________________________________________________________________________________________________________
+
+SYNCHRONOUS -> Synchronous or Synchronized means "connected", or "dependent" in some way. In other words,
+               two synchronous tasks must be aware of one another, and one task must execute in some way
+               that is dependent on the other, such as wait to start until the other task has completed.
+
+ASYNCHRONOUS -> Asynchronous means they are totally independent and neither one must consider the other
+                in any way, either in the initiation or in execution.
+
+____________________________________________________________________________________________________________
+
+Inheritance in JavaScript :
+In JavaScript, inheritance is supported by using prototype object. Some people call it 
+"Prototypal Inheriatance" and some people call it "Behaviour Delegation"
+
+-> All JavaScript objects inherit properties and methods from a prototype
+
+____________________________________________________________________________________________________________
+
+Classes in JavaScript :
+-> Classes are a template for creating objects.
+-> They encapsulate data with code to work on that data.
+-> Classes in JS are built on prototypes
+
+_____________________________________________________________________________________________________________
+
+JavaScript Callbacks :
+-> A callback is a function passed as an argument to another function
+-> This technique allows a function to call another function
+-> A callback function can run after another function has finished
+->* Agar Asynchronous Function ko Synchronously chalana hai toh hum callbacks ka use karte hain
+
+_____________________________________________________________________________________________________________
+
+Promises :
+A promise is an object that may produce a single value some time in the future: either a resolved
+value, or a reason that it’s not resolved (e.g., a network error occurred).
+A promise may be in one of 3 possible states: fulfilled, rejected, or pending.
+Promise users can attach callbacks to handle the fulfilled value or the reason for rejection.
+Promises are eager, meaning that a promise will start doing whatever task you give it as soon 
+as the promise constructor is invoked.
+
+____________________________________________________________________________________________________________
+ setInterval() :
+The setInterval() method calls a function or evaluates an expression at specified intervals (in milliseconds).
+The setInterval() method will continue calling the function until clearInterval() is called, or the window is closed.
+The ID value returned by setInterval() is used as the parameter for the clearInterval() method
+
+____________________________________________________________________________________________________________
+
+An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.
+
+____________________________________________________________________________________________________________
